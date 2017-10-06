@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+        test-couch:
+                build: ./
+                environment:
+                        - COUCHDB_PORT=5984
+                        - COUCHDB_HOST=0.0.0.0
+                        - COUCHDB_USER=admin
+                        - COUCHDB_PASSWORD=admin
+                        - COUCHDB_ENABLE_CORS=true
+                        - COUCHDB_AUTH_HANDLERS=default_authentication_handler,proxy_authentication_handler
+                        
