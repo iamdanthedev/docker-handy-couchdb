@@ -1,5 +1,7 @@
 # DTD HANDY COUCHDB 1.6.1 IMAGE
 
+### This a more convenient couchdb 1.6.1 image that accepts plenty of env vars which go directly into the couchdb config file ###
+
 Supports the following ENV vars (=defaults):
 
 ```bash
